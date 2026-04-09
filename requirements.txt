@@ -1,0 +1,8 @@
+python-dotenv
+sounddevice
+scipy
+numpy
+faster-whisper
+ollama
+pyttsx3
+customtkinter

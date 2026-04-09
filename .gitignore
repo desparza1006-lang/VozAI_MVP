@@ -1,0 +1,84 @@
+# ========================================
+# Python
+# ========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Entornos virtuales
+venv/
+ENV/
+env/
+.venv/
+
+# Distribución / empaquetado
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ========================================
+# Configuración y credenciales
+# ========================================
+.env
+.env.local
+.env.development
+.env.production
+*.key
+*.pem
+secrets.json
+
+# ========================================
+# IDEs y editores
+# ========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ========================================
+# Logs y bases de datos locales
+# ========================================
+*.log
+*.sqlite
+*.db
+*.db-journal
+data/*.db
+data/*.sqlite
+
+# ========================================
+# Archivos temporales del sistema
+# ========================================
+tmp/
+temp/
+*.tmp
+
+# ========================================
+# PyInstaller
+# ========================================
+*.manifest
+*.spec
+# Nota: CON.spec es parte del proyecto, pero si prefieres regenerarlo,
+# puedes descomentar la línea de arriba
+
+# ========================================
+# Archivos de audio/grabaciones (si son pesadas)
+# ========================================
+*.wav
+*.mp3
+*.ogg
+*.m4a
+recordings/
+audio/
+
+# ========================================
+# Outputs generados
+# ========================================
+output/
+outputs/
+results/
